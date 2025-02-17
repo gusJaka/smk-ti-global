@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #007bff;
+}
+
+header {
+    background-color: #f0f0f0; /* Example color */
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+.cta-button {
+    background-color: #007bff; /* Example color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.features, .pricing, .testimonials {
+    padding: 50px;
+    text-align: center;
+}
+
+.feature-grid, .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+.feature img { /* Style your icons */
+    width: 50px;
+    height: 50px;
+}
+
+.plan {
+    border: 1px solid #ccc; /* Example styling */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333; /* Example color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
